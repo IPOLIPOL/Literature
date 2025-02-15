@@ -1,7 +1,8 @@
-
 img {
-  width: 100%;
-  height: auto; /* Adjusts height automatically to maintain aspect ratio */
-  max-height: 200px; /* Ensures images don’t get too tall */
-  object-fit: contain; /* Fits image inside without cropping */
+  width: 100px;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+
+  padding: 10px; /* Optional: Adds spacing */
 }
