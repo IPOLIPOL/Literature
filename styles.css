@@ -1,4 +1,4 @@
-        body {
+body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             max-width: 800px;
@@ -6,13 +6,13 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
-        header {
+header {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 1rem;
         }
-        main {
+main {
             background-color: white;
             padding: 20px;
             border-radius: 5px;
