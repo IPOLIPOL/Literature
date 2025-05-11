@@ -32,6 +32,15 @@ body {
             display: block;
             margin: 6px 0 12px;
             }
+blockquote {
+            font-family: 'Px437 IBM DOS ISO9', monospace;
+            font-size: 1.05rem;
+            color: #1a1a1a;
+            background-color: #eaeaea;
+            padding: 10px 15px;
+            margin: 15px 0;
+            border-left: 4px solid #999;
+            }
 header {
             background-color: #333;
             color: #fff;
