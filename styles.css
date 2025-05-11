@@ -4,6 +4,12 @@
             font-weight: normal;
             font-style: normal;
             }
+@font-face {
+            font-family: 'Px437 IBM DOS ISO9';
+            src: url('assets/fonts/Ac437_IBM_DOS_ISO9-2x') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
 body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
