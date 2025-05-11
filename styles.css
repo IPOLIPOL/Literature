@@ -6,6 +6,19 @@ body {
             padding: 20px;
             background-color: #f4f4f4;
         }
+.description-label {
+            font-weight: bold;
+            font-size: 1rem;
+            color: #444;
+            }
+
+.description-text {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: #333;
+            display: block;
+            margin: 4px 0 10px 0;
+            }
 header {
             background-color: #333;
             color: #fff;
@@ -13,11 +26,11 @@ header {
             padding: 1rem;
         }
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 40px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 40px;
             }
 main {
             background-color: white;
