@@ -79,31 +79,34 @@ img {
             display: block;
             padding: 10px; /* Optional: Adds spacing */
 }
-/* Image Popup (Modal) */
 .popup {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0; /* shorthand for top, right, bottom, left = 0 */
     background-color: rgba(0, 0, 0, 0.85);
     z-index: 999;
-    text-align: center;
-    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
 .popup:target {
-    display: block;
+    display: flex; /* turn on the popup using flexbox */
 }
 
+/* Full-size image styling */
 .popup img {
-    max-width: 90%;
-    max-height: 80%;
-    border: 2px solid #fff;
-    box-shadow: 0 0 10px #000;
+    max-width: 90vw;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 20px #000;
+    border: 2px solid white;
 }
 
+/* Close button styling */
 .popup .close {
     position: absolute;
     top: 20px;
@@ -112,6 +115,10 @@ img {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    background: none;
+    border: none;
     cursor: pointer;
+    z-index: 1000;
 }
+
 
