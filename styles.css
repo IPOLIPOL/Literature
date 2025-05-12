@@ -120,5 +120,26 @@ img {
     cursor: pointer;
     z-index: 1000;
 }
+.image-thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.image-thumbnails a img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 3px;
+  transition: transform 0.2s;
+}
+
+.image-thumbnails a img:hover {
+  transform: scale(1.1);
+}
+
 
 
