@@ -140,6 +140,26 @@ img {
 .image-thumbnails a img:hover {
   transform: scale(1.1);
 }
+.popup .nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.popup .nav a {
+  color: #fff;
+  text-decoration: none;
+  background: #444;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.popup .nav a:hover {
+  background: #666;
+}
 
 
 
