@@ -85,7 +85,7 @@ img {
     inset: 0; /* shorthand for top, right, bottom, left = 0 */
     background-color: rgba(0, 0, 0, 0.85);
     z-index: 999;
-    display: flex;
+    /* display: flex;*/
     justify-content: center;
     align-items: center;
     padding: 2rem;
